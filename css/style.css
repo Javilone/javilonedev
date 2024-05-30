@@ -209,13 +209,19 @@ li > a {
   align-items: center;
   margin-bottom: 40px;
   border-radius: 20px;
-  height: auto;
+  height: fit-content;
 }
 
-.project-superContainer-hidden{
+.project-superContainer{
+  width: 100%;
+  height:1300px;
+  transition: 1s;
+}
+
+.project-superContainer-hidden {
   height: 0px;
   overflow: hidden;
-  transition: 2s;
+  transition: 1s;
 }
 
 
