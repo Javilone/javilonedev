@@ -199,6 +199,7 @@ li > a {
     var(--verde-secundario)
   );
   margin-bottom: 20px;
+  cursor: pointer;
 }
 
 .project-container {
@@ -207,9 +208,16 @@ li > a {
   flex-direction: row;
   align-items: center;
   margin-bottom: 40px;
-  transition: all 1s;
   border-radius: 20px;
+  height: auto;
 }
+
+.project-superContainer-hidden{
+  height: 0px;
+  overflow: hidden;
+  transition: 2s;
+}
+
 
 .project-container:hover {
   transform: scale(1.03);
